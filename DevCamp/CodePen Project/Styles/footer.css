@@ -1,0 +1,23 @@
+.footer {
+    height: 150px;
+    width: 100%;
+    background-color: #191a1d;
+    display: flex;    
+}
+
+.footer > * {
+    flex-basis: 100%;
+}
+
+.footer-btn {
+    background-color: #36373F;
+    color: antiquewhite;
+    height: 85px;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.bold-footer {
+    font-family: 'Bangers', cursive;
+font-weight: 400;
+}

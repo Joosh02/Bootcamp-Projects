@@ -1,0 +1,93 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Common Nav Style */
+.navigation-wrapper {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+
+}
+
+/* Logo on Navigation */
+.navigation-wrapper > .nav-logo > img {
+    height: 50px;
+    padding: 25px;
+    flex-grow: 1;
+}
+
+/* Nav Menu */
+.navigation-wrapper > .explore-menu {
+    flex-grow: 2;
+    height: 10px;
+    display: grid;
+    align-self: center;
+    padding-bottom: 30px;
+}
+
+.navigation-wrapper > .explore-menu > .menu-title {
+    color: #f1c451;
+    text-transform: uppercase;
+    font-weight:500;
+    font-variant: light;
+}
+
+.navigation-wrapper > .explore-menu > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .explore-menu > .links-wrapper > .white-links {
+    display:flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.navigation-wrapper > .explore-menu > .links-wrapper > .white-links a {
+   color: white;
+   text-decoration: none;
+}
+.navigation-wrapper > .explore-menu > .links-wrapper > .grey-link a, i {
+    color: grey;
+    text-decoration: none;
+ }
+
+ /* account option button menu */
+ .account-options-buttons {
+    flex-grow: 4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+ }
+
+ .account-options-buttons > .eyeglass-icon i {
+    font-size: 2em;
+    flex-grow: 1;
+ }
+
+.btn i{
+    color: limegreen;
+ }
+
+.btn {
+    background-color: rgb(44, 43, 43);
+    color: antiquewhite;
+    font-size: 1.25em;
+    padding: 25px 25px;
+    border: 1px solid rgb(44,43,43);
+    border-radius: 4px;    
+ }
+
+ .login-button {
+    flex-grow: 2;
+ }
+
+ 
